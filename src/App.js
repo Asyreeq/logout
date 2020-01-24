@@ -35,8 +35,7 @@ export default function FullScreenDialog() {
 
   return (
     <div style={{ width: '100%', height: '100%'  }}>
-    <Box display="flex" p={1} bgcolor="background.bgcolor">
-    {/* <div> */}
+    <Box display="flex" p={1} bgcolor="background.bgcolor">    
        <React.Fragment>
           <CssBaseline />
           <Container >           
@@ -52,8 +51,7 @@ export default function FullScreenDialog() {
               </Paper>                      
                  
          </Container>         
-        </React.Fragment>
-      {/* </Dialog> */}
+        </React.Fragment>      
       </Box>
   </div>
     
