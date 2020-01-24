@@ -9,14 +9,11 @@ import Box from '@material-ui/core/Box';
 import 'typeface-roboto';
 
 const useStyles = makeStyles(theme => ({
-  // appBar: {
-  //   position: 'relative',
-  // },
+
   paper: {
     padding: theme.spacing(10),
     textAlign: 'center',
     color: theme.palette.text.secondary,   
-    //marginTop: theme.spacing(25),    
   },
   root: {
     '& > * + *': {
