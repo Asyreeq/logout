@@ -6,6 +6,7 @@ import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
 import Button from '@material-ui/core/Button';
 import Box from '@material-ui/core/Box';
+import 'typeface-roboto';
 
 const useStyles = makeStyles(theme => ({
   // appBar: {
@@ -34,7 +35,8 @@ export default function FullScreenDialog() {
 
   return (
     <div style={{ width: '100%', height: '100%'  }}>
-    <Box display="flex" p={1} bgcolor="background.paper">
+    <Box display="flex" p={1} bgcolor="background.bgcolor">
+    {/* <div> */}
        <React.Fragment>
           <CssBaseline />
           <Container >           
@@ -42,7 +44,7 @@ export default function FullScreenDialog() {
                   You are now logged out. <br/>
                   Thank you for using Kiswire Sales System. 
                   Click here if you wish to <Link href="/login">login to Kiswire Sales System</Link> again. <br/>
-                  {values.currDate} {values.currTime} <br/>
+                  {values.currDate} {values.currTime} <br/><br/>
 
                   <Button variant="outlined" color="secondary" href="/home">
                     Home
