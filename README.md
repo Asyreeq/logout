@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##Screenshot Example
+## Screenshot Example
 ![Image of Yaktocat](https://github.com/Asyreeq/logout/blob/master/src/SS.jpg)
 
 ## Available Scripts
